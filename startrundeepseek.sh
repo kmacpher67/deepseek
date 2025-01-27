@@ -1,5 +1,4 @@
-#! bash
-
+#!/bin/bash
 
 docker build -t kensdeepseek . 
 
