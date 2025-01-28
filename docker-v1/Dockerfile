@@ -61,6 +61,8 @@ RUN cd /tmp && pip install -r requirements.txt
 
 RUN curl -fsSL https://ollama.com/install.sh | sh
 
+RUN ollama run deepseek-r1:8b
+
 RUN git clone https://github.com/deepseek-ai/DeepSeek-V3.git
 RUN ollama run deepseek-r1:8b
 

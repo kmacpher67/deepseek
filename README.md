@@ -1,6 +1,8 @@
 # Kens deepseek testing @2025-Jan-27
 
 I generated the first file via myself and 2nd Dockerfile using Anthropics Claude Computer Use Demo. lol. 
+Can i write an integration into index2.html for claude demo to use this or https://openwebui.com/
+
 
 
 https://ollama.com/library/deepseek-r1
