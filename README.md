@@ -3,6 +3,11 @@
 I generated the first file via myself and 2nd Dockerfile using Anthropics Claude Computer Use Demo. lol. 
 Can i write an integration into index2.html for claude demo to use this or https://openwebui.com/
 
+I just used the ollama docker image and created a custom entrypoint file for running. Then I just gave up on that and 
+docker exec -it into the contianer and run the deepseek model commands. :(
+
+what is this: 
+https://lmstudio.ai/
 
 
 https://ollama.com/library/deepseek-r1
@@ -10,6 +15,20 @@ https://ollama.com/library/deepseek-r1
 
 ollama run deepseek-r1:7b
 ollama run deepseek-r1:8b
+
+
+## Ask questions: 
+
+### How much bleach is needed to disinfect a standard residential 300ft deep well of 2" diamter?
+```
+<think>
+Okay, so I need to figure out how much bleach is required to disinfect a 300-foot deep well. Hmm, where do I start? I remember that wells are cylindrical, 
+right? So maybe the volume of the well can be calculated using the formula for the volume of a cylinder, which is V = πr²h, where r is the radius and h is 
+the height (or depth in this case).
+
+```
+It babbles on&on.
+
 
 
 

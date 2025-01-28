@@ -51,7 +51,7 @@ RUN git clone https://github.com/deepseek-ai/DeepSeek-LLM.git /app/DeepSeek-LLM
 # EXPOSE 7860
 
 # # Create an entrypoint script
-# COPY entrypoint.sh /app/entrypoint.sh
-# RUN chmod +x /app/entrypoint.sh
+COPY entrypoint.sh /app/entrypoint.sh
+RUN chmod +x /app/entrypoint.sh
 
-# ENTRYPOINT ["/app/entrypoint.sh"]
+ENTRYPOINT ["/app/entrypoint.sh"]
